@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faeves-page1</title>
+    <link rel="stylesheet" href="./page1.css">
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="./video.css">
+        <!-- or -->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="./header.css">
+
+</head>
+<body>
+      
+
+<nav class=" navbar container "  >
+<div class="left">
+    <ul class="list">
+        <li ><a href="#" class="shop-navigation">SHOP</a></li>
+        <li><a href="#" class="story-navigation">STORY</a></li>
+        <li><a href="#" class="ambassadors-navigation">AMBASSADORS</a></li>
+        <li><a href="#" class="daily faeves-navigation">DAILY FAEVES</a></li>
+    </ul>
+   
+</div>
+  <div>
+    <a href="index.html" class="brand_logo"> 
+        <img src="./images/faeves_logo.svg" alt="">
+    </a>
+</div>
+
+<div class="right_nav">
+<div class="Language">
+    <p class="languageText">Language &nbsp;
+        <span class="languageOption"> EN | AR</span>
+    </p>
+</div>
+
+<ul class="right_nav-bottom" style="display: flex;">
+    <li class="search">
+      <a href="/search.html" class="header-search-input">
+        <input type="text" placeholder="Search by keyword or item" disabled="">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20.479" height="19.675" viewBox="0 0 20.479 19.675">
+          <g id="Group_6273" data-name="Group 6273" transform="translate(0)">
+            <path id="Path_17" data-name="Path 17" d="M-2770.068,1615.45h0a1.267,1.267,0,0,1-1.792,0l-4.611-4.611a8.842,8.842,0,0,0,1.677-1.909l4.727,4.727A1.267,1.267,0,0,1-2770.068,1615.45Z" transform="translate(2790.176 -1596.146)"></path>
+            <g id="Group_17" data-name="Group 17">
+              <path id="Path_18" data-name="Path 18" d="M-2864.127,1535.663a7.977,7.977,0,0,1-7.969-7.968,7.977,7.977,0,0,1,7.969-7.968,7.977,7.977,0,0,1,7.968,7.968A7.977,7.977,0,0,1-2864.127,1535.663Zm0-13.643a5.681,5.681,0,0,0-5.675,5.675,5.681,5.681,0,0,0,5.675,5.675,5.682,5.682,0,0,0,5.675-5.675A5.682,5.682,0,0,0-2864.127,1522.02Z" transform="translate(2872.096 -1519.727)"></path>
+            </g>
+          </g>
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <button type="button" id="cartBtn" aria-label="cart" class="link nav-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18.964" height="22.563" viewBox="0 0 18.964 22.563">
+          <g id="Group_10890" data-name="Group 10890" transform="translate(4.74)">
+            <path id="Path_788" data-name="Path 788" d="M1314.534,172.689a.949.949,0,0,1-.948-.948V168.9H1307.9v2.845a.948.948,0,0,1-1.9,0V168.9a1.9,1.9,0,0,1,1.9-1.9h5.689a1.9,1.9,0,0,1,1.9,1.9v2.845A.949.949,0,0,1,1314.534,172.689Z" transform="translate(-1306 -167)"></path>
+          </g>
+          <path id="Path_789" data-name="Path 789" d="M1318.068,171H1302.9a1.9,1.9,0,0,0-1.9,1.9v12.327a2.845,2.845,0,0,0,2.845,2.845h13.275a2.844,2.844,0,0,0,2.845-2.845V172.9A1.9,1.9,0,0,0,1318.068,171Zm0,14.223a.949.949,0,0,1-.948.948h-13.275a.949.949,0,0,1-.948-.948V172.9h15.171Z" transform="translate(-1301 -165.505)"></path>
+        </svg>
+        <span class="cartQuantity"> 3 </span>
+      </button>
+    </li>
+
+    <li>
+      <button type="button" id="signInBtn" aria-label="Sign-In" class="link nav-button">
+        <svg id="user_profile_people" data-name="user, profile, people" xmlns="http://www.w3.org/2000/svg" width="18" height="22" viewBox="0 0 18 22">
+          <path id="user_profile_people-2" data-name="user, profile, people" d="M12,11A5,5,0,1,0,7,6,5,5,0,0,0,12,11Zm0-8A3,3,0,1,1,9,6a3,3,0,0,1,3-3ZM4,23H20a1,1,0,0,0,1-1V18a5.006,5.006,0,0,0-5-5H8a5.006,5.006,0,0,0-5,5v4a1,1,0,0,0,1,1Zm1-5a3,3,0,0,1,3-3h8a3,3,0,0,1,3,3v3H5Z" transform="translate(-3 -1)"></path>
+        </svg>
+      </button>
+    </li>
+    <li>
+      <a href="#" class="link burgerDropdown" id="burgerDropdown">
+        <svg id="Component_45_11" data-name="Component 45 – 11" xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18">
+          <g id="Group_867" data-name="Group 867" transform="translate(0.001)">
+            <g id="Group_866" data-name="Group 866">
+              <g id="Group_865" data-name="Group 865">
+                <g id="Group_864" data-name="Group 864">
+                  <g id="Group_863" data-name="Group 863">
+                    <rect id="Rectangle_861" data-name="Rectangle 861" width="22" height="2" transform="translate(-0.001)"></rect>
+                    <rect id="Rectangle_862" data-name="Rectangle 862" width="22" height="2" transform="translate(-0.001 8)"></rect>
+                    <rect id="Rectangle_863" data-name="Rectangle 863" width="22" height="2" transform="translate(-0.001 16)"></rect>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+       </a>
+    </li>
+  </ul>
+</div>
+ </nav>
+    <section class="secondSection container">
+     <video src="./videos/pexels-jean-van-der-meulen-11254215 (2160p).mp4" autoplay loop muted  height="100"></video>
+    
+    <div class="video-text">
+    <img src="./images/Group 10573.svg" alt="">
+    <h2>Nimya is fierce,<span style="color: rgb(56, 77, 230);">boundary breaking</span>,safe as heaven</h2>
+    <p>Confident & soft with a bold twist.Classy and mature but with a young,fresh,fun and funky mindset</p>
+    <p>A beautiful natural-toned painting with a dash of neon paint over it.</p>
+    <div class="nimya">  <span></span>
+    </div>
+    <h4>NIMYA</h4>
+    </section>
+     
+    <section>
+    <div class="brandText">As founder and curator of the best products. Nikki Tutorials is Nimya’s guide. Being part of the beauty industry for over 14 years, Nikkie de Jager has seen it all. What to do when you still <br>
+       miss that perfect product…? You try to make it yourself. She finds and helps create the ultimate products that are essential in your beauty routine. Nikkie’s essentials are innovative and <br>
+        always a must-have! As Nimya gives the tools to be the best version of you. Nikkie will continue to teach you how to use these tools in the best way possible. She knows how important it <br>
+         is to have the right products for every occasion. These products are your base and give you the power. The power of makeup, the power of you!
+         
+         <h1> Nikkie Tutorials</h1>
+   </div>   
+      </section>
+
+      
+     
+     <!--- Bestsellers -->
+    
+     <section>
+      <nav class="product-nav container">
+       <div class="filter">
+           FILTERS <i class='bx bx-transfer'></i>
+        </div>
+       <div class="filter-right">
+          <a href="" class="search_input">
+           <input type="text" placeholder="Search by keyword or item" disabled="">
+           <i class='bx bx-search-alt-2' style="width: 20.479; height: 19.675;"></i>
+       </a>
+       <p>SORT BY: Please Select One</p>
+        <i class='bx bxs-chevron-down' ></i>
+      </div>
+      </nav>
+</section>
+
+        <!-- Bestsellers Products -->
+        <section class="bestsellers container" id="product">
+          <div>
+          <div class="slider-btn"> <div class="left_arrow"> 
+            <i class='bx bxs-left-arrow-circle'></i>
+            </div>
+             <div class="right-arrow">
+              <i class='bx bxs-right-arrow-circle'></i></div></div>
+          <div class="right-text">
+            <h4>Bestsellers</h4> 
+            <h5>SHOP ALL</h5>
+          </div>
+         
+          
+          <div class="products">
+
+            <div class="row">
+              <div class="img1">
+                <img src="./images/curatedBrand/curatedBrand_five.jpg" alt=""></div>
+               <div class="product-text">
+                <p>License To Glow</p>
+                <p class="heart-icon">
+                  
+                  <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                        <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                  </svg>
+                 </p>
+               </div>
+               <div class="ratting">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <p> 5.0 &nbsp; | &nbsp; NIMYA</p>
+               </div>
+
+               <div class="price">
+                <h6>This glow-packed serum is all you need when you want a fresh, radiant and <br>
+                  in from-within complexion </h6>
+                  <p>ADE178</p>
+
+               </div>
+            </div>
+                  
+            <div class="row">
+              <div class="img2">
+                <img src="./images/signup/shopCategory/category_four.jpg" alt=""></div>
+              <div class="product-text">
+                <p>BRR Eye Cooling Eye Stick</p>
+                <p class="heart-icon">
+                  <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                    <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+              </svg>
+                 </p>
+               </div>
+               <div class="ratting">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bx-star'></i>
+                <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+               </div>
+
+               <div class="price">
+                <h6>Instant depuffing cooling stick that nurtunes and hydrates stressed eyes. </h6>
+                  <p>ADE105</p>
+
+               </div>
+            </div>
+            <div class="row">
+              <div class="img3">
+                <img src="./images/reviewSlider/revImg_two.jpg" alt="">
+              </div>
+              <div class="product-text">
+                <p>Set It And Forget It Set </p>
+                <p class="heart-icon">
+                  <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                    <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+              </svg>
+                 </p>
+               </div>
+               <div class="ratting">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bx-star'></i>
+                <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+               </div>
+
+               <div class="price">
+                <h6>Set It & Setting Spray is your ultimate soulmate when it comes to <br>
+                keeping your makeup perfectly in place all day </h6>
+                  <p>ADE122</p>
+
+               </div>
+            </div>
+            <div class="row">
+              <div class="img4">
+                <img src="./images/curatedBrand/curatedBrand_two.jpg" alt="">
+              </div>
+              <div class="product-text">
+                <p>Where It All Start</p>
+                <p class="heart-icon">
+                  <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                    <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+              </svg>
+                 </p>
+               </div>
+               <div class="ratting">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half' ></i>
+                <p> 3.7 &nbsp; | &nbsp; NIMYA</p>
+               </div>
+
+               <div class="price">
+                <h6>Where It All Starts Cream is a Moisturizer/Hybrid and creates a perfect <br>
+                canvas for luminous skin but can also help you prime the face for those iconic <br>
+                makeup days. </h6>
+                  <p>ADE145</p>
+               </div>
+            </div>
+          </div>
+          <span></span>
+        </div>
+        </section>
+
+        <div class="product-seperator">
+          <span></span>
+      </div>
+        
+                 <!--New Products -->
+
+
+                 <section class="bestsellers container "  id="product">
+                  <div class="slider-btn"> <div class="left_arrow"> 
+                    <i class='bx bxs-left-arrow-circle'></i>
+                    </div>
+                     <div class="right-arrow">
+                      <i class='bx bxs-right-arrow-circle'></i></div></div>
+                  <div class="right-text">
+                    <h4>New</h4>
+                    <h5>SHOP ALL</h5>
+                  </div>
+                  <div class="products">
+                    <div class="row ">
+                      <div class="img5">
+                        <img src="./images/header/cartImg/cart-img-two.jpg" alt="">
+                      </div>
+                      <div class="product-text">
+                        <p>24/7/365 Lip Balm</p>
+                        <p class="heart-icon">
+                          <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                            <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                      </svg>
+                         </p>
+                       </div>
+                       <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                       </div>
+        
+                       <div class="price">
+                        <h6>The 24/7/365 lipbalm is your go-to-lip smooth operator that goes the extra mile. <br>
+                        Say bye-bye to dry lips! </h6>
+                          <p>ADE78</p>
+        
+                       </div>
+                    </div>
+                          
+                    <div class="row ">
+                      <div class="img6">
+                        <img src="./images/reviewSlider/revImg_two.jpg" alt="">
+                      </div>
+                      
+                      <div class="product-text">
+                        <p>Lip Gloss Spill The Juice</p>
+                        <p class="heart-icon">
+                          <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                            <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                      </svg>
+                         </p>
+                       </div>
+                       <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                        <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                       </div>
+        
+                       <div class="price">
+                        <h6> An ultimate nourishing, never sticky, high shine lip gloss.</h6> 
+                          <p>ADE89</p>
+        
+                       </div>
+                    </div>
+                    <div class="row">
+                      <div class="img7">
+                        <img src="./images/curatedBrand/curatedBrand_two.jpg" alt="">
+                      </div>
+                      
+                      <div class="product-text">
+                        <p>Where It All Start</p>
+                        <p class="heart-icon">
+                          <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                            <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                      </svg>
+                         </p>
+                       </div>
+                       <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star'></i>
+                        <p> 3.7 &nbsp; | &nbsp; NIMYA</p>
+                       </div>
+        
+                       <div class="price">
+                        <h6>Where It All Starts Cream is a Moisturizer/Hybrid and creates a perfect <br>
+                          canvas for luminous skin but can also help you prime the face for those iconic <br>
+                          makeup days. </h6>
+                          <p>ADE145</p>
+        
+                       </div>
+                    </div>
+                    <div class="row ">
+                      <div class="img8">
+                        <img src="./images/signup/shopCategory/category_four.jpg" alt="">
+                      </div>
+                      
+                      <div class="product-text">
+                        <p>BRR Eye Cooling Eye Stick</p>
+                        <p class="heart-icon">
+                          <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                            <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                      </svg>
+                         </p>
+                       </div>
+                       <div class="ratting">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half' ></i>
+                        <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                       </div>
+        
+                       <div class="price">
+                        <h6>Instant depuffing cooling stick that nurtures and hydrates stressed eyes. </h6>
+                          <p>ADE105</p>
+                       </div>
+                    </div>
+                  </div>
+                 </section>
+                 
+                 <div class="product-seperator">
+                  <span></span>
+              </div>
+
+
+              <!-- All Products-->
+
+              <section class="bestsellers container"  id="product">
+                
+                <div class="right-text">
+                  <h4>All Products</h4>
+                  <h5>SHOP ALL</h5>
+                </div>
+                <div class="products">
+                  <div class="row ">
+                    <div class="img9">
+                      <img src="./images/signup/shopCategory/category_four.jpg" alt="">
+                    </div>
+                    
+                    <div class="product-text">
+                      <p>BRR Eye Cooling Eye Stick</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>Instant depuffing cooling stick that nurtures and hydrates stressed eyes. </h6>
+                        <p>ADE105</p>
+      
+                     </div>
+                  </div>
+                        
+                  <div class="row">
+                    <div class="img10">
+                      <img src="./images/curatedBrand/curatedBrand_five.jpg" alt="">
+                    </div>
+                   
+                    <div class="product-text">
+                      <p>License To Glow</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bx-star'></i>
+                      <p> 5.0 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>The glow-packed serum is all you need when you want a fresh, radiant and it <br>
+                      from-within complexion.</h6> 
+                        <p>ADE178</p>
+      
+                     </div>
+                  </div>
+                  <div class="row ">
+                    <div class="img11">
+                      <img src="./images/curatedBrand/curatedBrand_two.jpg" alt="">
+                    </div>
+                   
+                    <div class="product-text">
+                      <p>Where It All Start</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bx-star'></i>
+                      <p> 3.7 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>Where It All Starts Cream is a Moisturizer/Hybrid and creates a perfect <br>
+                        canvas for luminous skin but can also help you prime the face for those iconic <br>
+                        makeup days. </h6>
+                        <p>ADE145</p>
+      
+                     </div>
+                  </div>
+                  <div class="row">
+                    <div class="img12">
+                      <img src="./images/reviewSlider/revImg_two.jpg" alt="">
+                    </div>
+                   
+                    <div class="product-text">
+                      <p>Set It And Forget It Set</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star-half' ></i>
+                      <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>Set It & Setting Spray is your ultimate soulmate when it comes to <br>
+                        keeping your makeup perfectly in place all day  </h6>
+                        <p>ADE122</p>
+                     </div>
+                  </div>
+                </div>
+               </section>
+
+                        
+              <section class="bestsellers container"  id="product">
+                <div class="right-text">
+                </div>
+                <div class="products">
+                  <div class="row ">
+                    <div class="img13">
+                      <img src="./images/curatedBrand/curatedBrand_five.jpg" alt="">
+                    </div>
+                    <div class="product-text">
+                      <p>BRR Eye Cooling And Eye Stick</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>Instant depuffing cooling stick that nurtures and hydrates stressed eyes. </h6>
+                        <p>ADE178</p>
+      
+                     </div>
+                  </div>
+                        
+                  <div class="row ">
+                    <div class="img14">
+                      <img src="./images/curatedBrand/curatedBrand_two.jpg" alt="">
+                    </div>
+                    
+                    <div class="product-text">
+                      <p>License To Glow</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bx-star'></i>
+                      <p> 5.0 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>The glow-packed serum is all you need when you want a fresh, radiant and it <br>
+                      from-within complexion.</h6> 
+                        <p>ADE145</p>
+      
+                     </div>
+                  </div>
+                  <div class="row ">
+                    <div class="img15">
+                      <img src="./images/reviewSlider/revImg_two.jpg" alt="">
+                    </div>
+                   
+                    <div class="product-text">
+                      <p>Where It All Start</p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bx-star'></i>
+                      <p> 3.7 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>Where It All Starts Cream is a Moisturizer/Hybrid and creates a perfect <br>
+                        canvas for luminous skin but can also help you prime the face for those iconic <br>
+                        makeup days. </h6>
+                        <p>ADE122</p>
+      
+                     </div>
+                  </div>
+                  <div class="row">
+                    <div class="img16">
+                      <img src="./images/signup/shopCategory/category_four.jpg" alt="">
+                    </div>
+                   
+                    <div class="product-text">
+                      <p>Set It And Forget It Set </p>
+                      <p class="heart-icon">
+                        <svg id="Component_120_21" data-name="Component 120 – 21" xmlns="http://www.w3.org/2000/svg" width="20.688" height="23.371" viewBox="0 0 30.688 26.371">
+                          <path id="Path_814" data-name="Path 814" d="M635.581,131.322c0,.073,0,.145,0,.218-.223,8.668-13.626,17.271-15.341,18.337-1.715-1.066-15.118-9.669-15.341-18.337,0-.073,0-.145,0-.218a7.925,7.925,0,0,1,8.032-7.816,8.047,8.047,0,0,1,7.313,4.578,8.047,8.047,0,0,1,7.313-4.578A7.925,7.925,0,0,1,635.581,131.322Z" transform="translate(-604.893 -123.506)" fill="#d9d9d9"></path>
+                    </svg>
+                       </p>
+                     </div>
+                     <div class="ratting">
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star'></i>
+                      <i class='bx bxs-star-half' ></i>
+                      <p> 4.0 &nbsp; | &nbsp; NIMYA</p>
+                     </div>
+      
+                     <div class="price">
+                      <h6>Set It & Setting Spray is your ultimate soulmate when it comes to <br>
+                        keeping your makeup perfectly in place all day  </h6>
+                        <p>ADE105</p>
+                     </div>
+                  </div>
+                </div>
+               </section>
+
+               <div class="view-more"><p>VIEW MORE</p></div>
+
+
+                  <!--#Fieves-NIMYA-->
+
+                  <section class="bestsellers-dark container"  id="product">
+                    <div class="slider-btn"> <div class="left_arrow"> 
+                      <i class='bx bxs-left-arrow-circle'></i>
+                      </div>
+                       <div class="right-arrow-dark">
+                        <i class='bx bxs-right-arrow-circle'></i></div></div>
+                    <div class="right-text-dark">
+                       <p>#Faeves_Nimya</p>
+                      
+                    </div>
+                    <div class="products-dark">
+                      <div class="row-dark">
+                        <img src="./images/signup/shopCategory/category_three.png" alt="">
+                         <div class="product-dark">
+                          <p>@Layala Lemmens</p>
+                         </div>
+                       
+                         <div class="ratting-dark">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                         </div>
+                         <div class="product-detail"> "This Serum Balm ain't no joke, and I am here <br>
+                          for it."</div>
+          
+                         <div class="price-dark">
+                          <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                              how do they look without makeup at the beginning of the career ?I would <br>
+                              say... </h6>
+                              <div class="product_foot"> <p>LIP_SERUM </p> <p> NIMYA </p> 
+                                 <p> BESST_BALM</p> <p> NIKKE_TUTORIALS</p></div>
+                         </div>
+                      </div>
+                            
+                      <div class="row-dark">
+                        <img src="./images/brandDetails/brandpagebg.jpg" alt="">
+                         <div class="product-dark">
+                          <p>@Layala Lemmens</p>
+                         </div>
+                      
+                         <div class="ratting-dark">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <p class='bx bxs-star'></p>
+                         </div>
+                         <div class="product-detail">You guys are so conscientious as well as <br>
+                          making fabulous products I cannot live without!</div>
+          
+                         <div class="price-dark">
+                          <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                            how do they look without makeup at the beginning of the career ?I would <br>
+                            say...  </h6> 
+                            <div class="product_foot"> <p>CONDITIONER </p> <p>FIEVES_NIMYA </p> 
+                              <p>HAIR_CARE</p></div>
+                         </div>
+                      </div>
+                      <div class="row-dark">
+                        <img src="./images/signup/shopCategory/category_three.png" alt="">
+                         <div class="product-dark">
+                          <p> @Layala Lemmens</p>
+                         </div>
+                       
+                         <div class="ratting-dark">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bx-star'></i>
+                         </div>
+                          <div class="product-detail"> "When you hear that Lip Whips are 15% off"</div>
+          
+                         <div class="price-dark">
+                          <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                            how do they look without makeup at the beginning of the career ?I would <br>
+                            say... </h6>
+                            <div class="product_foot"> <p>LIP_SERUM </p> <p>NIKKIE_TUTORIALS </p> 
+                              <p> BESST_BALM</p> <p> FAEVES_NIMYA</p></div>
+          
+                         </div>
+                      </div>
+                      <div class="row-dark">
+                        <img src="./images/brandDetails/brandpagebg.jpg" alt="">
+                         <div class="product-dark">
+                          <p>@Layala Lemmens</p>
+                         </div>
+                        
+                         <div class="ratting-dark">
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star'></i>
+                          <i class='bx bxs-star-half' ></i>
+                          
+                         </div>
+                         <div class="product-detail">"When you hear that Lip Whips are 15% off"</div>
+          
+                         <div class="price-dark">
+                          <h6>You are used to see them on the runways or on your favourite glossies, but <br>
+                            how do they look without makeup at the beginning of the career ?I would <br>
+                            say...</h6>
+                            <div class="product_foot"> <p>LIP_SERUM </p> <p>NIKKE_TUTORIALS </p> 
+                              <p> BESST_BALM</p> <p>FAEVES_NIMYA</p></div>
+          
+                         </div>
+                      </div>
+                    </div>
+                   </section>
+                  
+
+
+
+
+
+     <!-- FOOTER -->
+          <footer class="footer container">
+            <div class="custom_container">
+            <div class="footer-line">
+           <span></span>
+
+        <a class="footer-logo-link" href="/">
+          <img class="footer-logo-img" src="./images/faeves_logo.svg" alt="">
+        </a>
+
+        <span></span>
+      </div>
+
+      <div class="footer-link-list">
+        <div class="footer-coloumn footer_list">
+          <p class="first-coloumn-heading"><strong>About faeves</strong></p>
+          <a href="#" class="first-coloumn-link"> About faeves </a>
+          <a href="#" class="first-coloumn-link">Newsroom </a>
+          <a href="#" class="first-coloumn-link"> Careers </a>
+          <a href="#" class="first-coloumn-link">Ambassadors </a>
+          <a href="#" class="first-coloumn-link">Faeves Daily </a>
+          <a href="#" class="first-coloumn-link"> Affiliates </a>
+          <a href="#" class="first-coloumn-link"> Gift Cards </a>
+          <a href="#" class="first-coloumn-link"> Checkout on Instagram </a>
+        </div>
+        <div class="footer-coloumn footer_list">
+            <p class="first-coloumn-heading"><strong>My faeves</strong></p>
+            <a href="#" class="first-coloumn-link"> Beauty Insider </a>
+            <a href="#" class="first-coloumn-link"> Community Profile </a>
+            <a href="#" class="first-coloumn-link"> Order Status </a>
+            <a href="#" class="first-coloumn-link">Purchase History </a>
+            <a href="#" class="first-coloumn-link">Account Settings </a>
+            <a href="#" class="first-coloumn-link">
+              Beauty Advisor Recommendations
+            </a>
+            <a href="#" class="first-coloumn-link"> Beauty Offers</a>
+          </div>
+
+
+          <div class="footer-coloumn footer_list">
+            <p class="first-coloumn-heading"> <strong> Help</strong></p>
+            <a href="#" class="first-coloumn-link"> Customer Service </a>
+            <a href="#" class="first-coloumn-link"> Returns &amp; Exchanges</a>
+            <a href="#" class="first-coloumn-link"> Buy Online </a>
+            <a href="#" class="first-coloumn-link">Shipping </a>
+            <a href="#" class="first-coloumn-link">Billing </a>
+            <a href="#" class="first-coloumn-link">International Shipments </a>
+          </div>
+
+          <div class="footer-coloumn footer_list">
+            <p class="first-coloumn-heading"> <strong>Quick links</strong></p>
+            <a href="#" class="first-coloumn-link"> OFFER ZONE</a>
+            <a href="#" class="first-coloumn-link"> NEW LAUNCHES</a>
+            <a href="#" class="first-coloumn-link"> Categories </a>
+            <a href="#" class="first-coloumn-link">Brands </a>
+            <a href="#" class="first-coloumn-link">SITEMAP </a>
+          </div>
+       
+          </div>
+       
+
+        </div>
+
+      </div>
+
+      <div class="footer-socials">
+        <div class="footer-social-media">
+          <div class="social-links">
+            <a href="#" class="footer-facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13.286" height="25.588" viewBox="0 0 13.286 25.588">
+                <g id="Group_311" data-name="Group 311" transform="translate(13.286) rotate(90)">
+                  <path id="f" d="M25.586,4.663H13.915V.746L9.364.159v4.5h-2.9c-1.319,0-2.214-.365-2.214-2.255V0H.179A33.246,33.246,0,0,0,0,3.508c0,3.473,2.121,5.85,6.013,5.85H9.368v3.927h4.551V9.359H25.588Z" transform="translate(0)"></path>
+                </g>
+              </svg>
+            </a>
+            <a href="#" class="footer-facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25.465" height="25.587" viewBox="0 0 25.465 25.587">
+                <g id="whatsapp.46d36d08" transform="translate(25.465) rotate(90)">
+                  <path id="Path_8" data-name="Path 8" d="M25.587,25.465l-6.573-1.8a12.678,12.678,0,1,1,6.353-10.987h0a12.7,12.7,0,0,1-1.543,6.06Zm-4.06-7.033.227-.385a10.52,10.52,0,0,0,1.47-5.364h0A10.549,10.549,0,1,0,18.286,21.6l.4-.251,3.887,1.064Z" transform="translate(0 0)"></path>
+                  <path id="Path_9" data-name="Path 9" d="M8.872.038C8.738.118,8.663.329,8.5.646S7.579,2.521,7.473,2.81s-.16.5.159.712,1.031.819,1.24,1,.24.369.08.687A8.645,8.645,0,0,1,7.38,7.76,9.517,9.517,0,0,1,5.188,9.524c-.318.184-.49.02-.646-.135s-.371-.316-.555-.475A2.163,2.163,0,0,0,3.455,8.6a.58.58,0,0,0-.553.027c-.16.079-1.72.712-2.354.976s-.538.519-.538.712-.01.4-.01.607a1.159,1.159,0,0,0,.4.845,3.554,3.554,0,0,0,2.642,1.108,6.152,6.152,0,0,0,3.277-1.295A14.1,14.1,0,0,0,11.1,6.168a17.787,17.787,0,0,0,.673-1.806,4.331,4.331,0,0,0,.128-2A3.266,3.266,0,0,0,10.4.227,2.658,2.658,0,0,0,8.872.038Z" transform="translate(6.829 6.252)" fillrule="evenodd"></path>
+                </g>
+              </svg>
+            </a>
+
+            <a href="#" class="footer-facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path id="Path_1036" data-name="Path 1036" d="M5559.127,5442.125c3.2,0,3.6,0,4.8.1,3.3.1,4.8,1.7,4.9,4.9.1,1.3.1,1.6.1,4.8s0,3.6-.1,4.8c-.1,3.2-1.7,4.8-4.9,4.9-1.3.1-1.6.1-4.8.1s-3.6,0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9-.1-1.3-.1-1.6-.1-4.8s0-3.6.1-4.8c.1-3.2,1.7-4.8,4.9-4.9C5555.527,5442.125,5555.927,5442.125,5559.127,5442.125Zm0-2.2c-3.3,0-3.7,0-4.9.1-4.4.2-6.8,2.6-7,7-.1,1.2-.1,1.6-.1,4.9s0,3.7.1,4.9c.2,4.4,2.6,6.8,7,7,1.2.1,1.6.1,4.9.1s3.7,0,4.9-.1c4.4-.2,6.8-2.6,7-7,.1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C5562.827,5439.925,5562.427,5439.925,5559.127,5439.925Zm0,5.8a6.2,6.2,0,1,0,6.2,6.2A6.231,6.231,0,0,0,5559.127,5445.725Zm0,10.2a4,4,0,1,1,4-4A4.012,4.012,0,0,1,5559.127,5455.925Zm6.4-11.8a1.4,1.4,0,1,0,1.4,1.4A1.367,1.367,0,0,0,5565.527,5444.125Z" transform="translate(-5547.127 -5439.925)"></path>
+              </svg>
+            </a>
+          </div>
+          <span class="social-link-seperator"> </span>
+        </div>
+
+        <h4 class="email-heading">We also make emails</h4>
+        <p class="email-instruction">
+          Receive email updates on stuff you’ll probably want to know about,
+          including products, launches, and events. <br>
+          Unsubscribe anytime.
+        </p>
+        <div class="input-container">
+          <input class="email-input" type="email" placeholder="name@email.com">
+          <button class="submit-button" type="button">Subscribe</button>
+        </div>
+
+        <div class="copyright-container">
+          <p class="copyright">©2021 Faeves Inc. All rights reserved</p>
+          <div class="bottom-link">
+            <a href="#" class="privacy-policy"> Privacy Policy </a>
+            <a href="#" class="privacy-policy"> Terms of Use </a>
+            <a href="#" class="privacy-policy"> Accessibility </a>
+          </div>
+        </div>
+      </div>
+    
+  </footer>
+
+
+
+
+</body>
+</html>
